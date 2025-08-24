@@ -40,4 +40,8 @@ module.exports = {
     debugMaxLength: 1000,
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
+    telemetry: {
+        enabled: false,
+        updateNotification: false
+    }
 }
