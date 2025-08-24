@@ -18,7 +18,11 @@ jobs:
           - name: Node-RED
             type: release
             target: node-red/node-red
+            bump: true
+            bump_type: containerfile
     with:
       name: ${{ matrix.name }}
       target: ${{ matrix.target }}
       type: ${{ matrix.type }}
+      bump: ${{ matrix.bump }}
+      bump_type: ${{ matrix.bump_type }}
