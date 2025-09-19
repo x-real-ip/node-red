@@ -43,5 +43,14 @@ module.exports = {
     telemetry: {
         enabled: false,
         updateNotification: false
+    },
+    contextStorage: {
+        default: "memoryOnly",
+        memoryOnly: {
+            module: 'memory'
+        },
+        file: {
+            module: 'localfilesystem'
+        }
     }
 }
