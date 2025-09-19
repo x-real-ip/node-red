@@ -45,8 +45,8 @@ module.exports = {
         updateNotification: false
     },
     contextStorage: {
-        default: "memoryOnly",
-        memoryOnly: {
+        default: "memory",
+        memory: {
             module: 'memory'
         },
         file: {
