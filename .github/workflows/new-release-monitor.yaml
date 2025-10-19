@@ -12,6 +12,8 @@ concurrency:
 jobs:
   check-releases:
     uses: x-real-ip/github-actions/.github/workflows/new-release-issue.yaml@main
+    secrets:
+      PAT: ${{ secrets.PAT }}
     strategy:
       matrix:
         include:
@@ -20,9 +22,14 @@ jobs:
             target: node-red/node-red
             bump: true
             bump_type: containerfile
+            image: ""
+            include_tags: ""
+            exclude_tags: ""
     with:
       name: ${{ matrix.name }}
       target: ${{ matrix.target }}
       type: ${{ matrix.type }}
       bump: ${{ matrix.bump }}
       bump_type: ${{ matrix.bump_type }}
+      include_tags: ${{ matrix.include_tags }}
+      exclude_tags: ${{ matrix.exclude_tags }}
