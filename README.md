@@ -1,5 +1,6 @@
 # Node-RED
 
+[![Check releases](https://github.com/x-real-ip/node-red/actions/workflows/new-release-monitor.yaml/badge.svg)](https://github.com/x-real-ip/node-red/actions/workflows/new-release-monitor.yaml)
 [![Continuous integration](https://github.com/x-real-ip/node-red/actions/workflows/ci.yaml/badge.svg)](https://github.com/x-real-ip/node-red/actions/workflows/ci.yaml)
 ![GitHub repo size](https://img.shields.io/github/repo-size/x-real-ip/node-red?logo=Github)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/x-real-ip/node-red?logo=github)
