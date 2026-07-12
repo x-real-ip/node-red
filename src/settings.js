@@ -10,6 +10,7 @@ module.exports = {
             permissions: "*"
         }]
     },
+    httpNodeRoot: "/api",
     httpNodeAuth: { user: "nodered-endpoint", pass: "$2b$08$EZNb/sUabbaxjaJmwZs/PuWtuHZi1LA93A0P2RG7PFRBQkRq0sg4q" },
     httpStaticAuth: { user: "nodered-endpoint", pass: "$2b$08$EZNb/sUabbaxjaJmwZs/PuWtuHZi1LA93A0P2RG7PFRBQkRq0sg4q" },
     uiPort: process.env.PORT || 1880,
