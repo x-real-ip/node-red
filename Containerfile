@@ -1,4 +1,4 @@
-FROM docker.io/nodered/node-red:5.0.2
+FROM docker.io/nodered/node-red:5.0.4
 
 COPY ./src/settings.js /usr/src/node-red/settings.js
 
